@@ -4,18 +4,25 @@
 }
 
 :root {
-  font-family: "Alice", serif;
-  line-height: 150%;
-  color: #573A37;
+    font-family: "Alice", serif;
+    line-height: 150%;
+    color: #573A37;
 }
 
 body {
-    background-image: url(Assets/bg-image.png);
-    background-size: cover;
-    background-color: #3f290c;
+    background: #3b2205 url(Assets/bg-image.png);
+    background-size:cover;
 }
 
-.page {
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+#page {
     box-sizing: border-box;
     width: 800px;
     padding: 24px;
@@ -24,57 +31,34 @@ body {
     margin: 48px auto;
 }
 
-.page img {
+#page img {
     width: 752px;
     height: 400px;
-    
+
 }
 
 main {
     padding: 24px;
 }
 
-p {
-    padding: 6px;
-}
-
-section + section {
+section+section {
     margin-top: 24px;
-    
 }
 
-#about p + p {
+#about p+p {
     margin-top: 12px;
-    
 }
 
-h1 {
-    line-height: 140%;
-    font-size: 40px;
+.headings {
     color: #291B1A;
-    margin-bottom: 4px;
+    border-bottom: 2px solid #291B1A;
+    margin-bottom: 19px;
     line-height: 150%;
-    border-bottom: 2px solid;
 }
 
-h2 {
-    font-size: 28px;
-    color: #291B1A;
-    margin-bottom: 4px;
-    line-height: 150%;
-    border-bottom: 2px solid;
-}
 
-ul {
+#ingredients-list {
     padding-left: 25px;
-    padding-top: 15px;
 }
 
-h3 {
-    font-size: 28px;
-    color: #291B1A;
-    margin-bottom: 5px;
-    line-height: 150%;
-    border-bottom: 2px solid;
-
-}
+footer {}
