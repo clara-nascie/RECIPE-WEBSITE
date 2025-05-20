@@ -1,5 +1,7 @@
 🧁 Cupcake de Café com Chantilly - Página de Receita
+
 📝 Descrição
+
 Projeto de uma página web estática com a receita completa de Cupcake de Café com Chantilly, incluindo lista de ingredientes e modo de preparo detalhado.
 
 ✨ Funcionalidades
